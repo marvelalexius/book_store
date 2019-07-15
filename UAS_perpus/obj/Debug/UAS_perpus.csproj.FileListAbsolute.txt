@@ -1,0 +1,40 @@
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\bin\Debug\UAS_perpus.exe.config
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\bin\Debug\UAS_perpus.exe
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\bin\Debug\UAS_perpus.pdb
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\obj\Debug\UAS_perpus.csprojAssemblyReference.cache
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\obj\Debug\UAS_perpus.Properties.Resources.resources
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\obj\Debug\UAS_perpus.csproj.GenerateResource.cache
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\obj\Debug\UAS_perpus.csproj.CoreCompileInputs.cache
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\obj\Debug\UAS_perpus.exe
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\obj\Debug\UAS_perpus.pdb
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\obj\Debug\UAS_perpus.login.resources
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\obj\Debug\UAS_perpus.register.resources
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\obj\Debug\UAS_perpus.home.resources
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\bin\Debug\MySql.Data.dll
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\bin\Debug\Google.Protobuf.dll
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\bin\Debug\BouncyCastle.Crypto.dll
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\bin\Debug\MySql.Data.xml
+D:\tugas\kuliah\pak kresna\pemrograman visual\UAS_perpus\UAS_perpus\obj\Debug\UAS_perpus.csproj.CopyComplete
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.csprojAssemblyReference.cache
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.home_detail.resources
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.home_edit.resources
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.home.resources
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.login.resources
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.pembelian.resources
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.pilihanstaff.resources
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.Properties.Resources.resources
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.staff.resources
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.tambahbuku.resources
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.transaksi.resources
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.csproj.GenerateResource.cache
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.csproj.CoreCompileInputs.cache
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.exe
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.pdb
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\bin\Debug\UAS_perpus.exe.config
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\bin\Debug\UAS_perpus.exe
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\bin\Debug\UAS_perpus.pdb
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\bin\Debug\MySql.Data.dll
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\bin\Debug\Google.Protobuf.dll
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\bin\Debug\BouncyCastle.Crypto.dll
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\bin\Debug\MySql.Data.xml
+D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.csproj.CopyComplete

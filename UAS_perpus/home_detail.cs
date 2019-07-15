@@ -45,6 +45,14 @@ namespace UAS_perpus
 
             InitializeComponent();
             fillData();
+
+            if (main.role == "staff")
+            {
+                editbtn.Visible = true;
+            } else
+            {
+                editbtn.Visible = false;
+            }
         }
 
         private void fillData()
@@ -96,6 +104,14 @@ namespace UAS_perpus
 
             pembelian form_pembelian = new pembelian(this.book_id);
             form_pembelian.Show();
+        }
+
+        private void editbtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            home_edit form_edit = new home_edit(this.book_id);
+            form_edit.Show();
         }
     }
 }

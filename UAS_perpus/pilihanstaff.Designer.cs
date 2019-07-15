@@ -34,6 +34,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.datapinjam = new System.Windows.Forms.Button();
             this.databuku = new System.Windows.Forms.Button();
+            this.homebtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -77,7 +78,7 @@
             this.datapinjam.BackColor = System.Drawing.Color.MidnightBlue;
             this.datapinjam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.datapinjam.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.datapinjam.Location = new System.Drawing.Point(64, 197);
+            this.datapinjam.Location = new System.Drawing.Point(64, 171);
             this.datapinjam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.datapinjam.Name = "datapinjam";
             this.datapinjam.Size = new System.Drawing.Size(133, 53);
@@ -91,7 +92,7 @@
             this.databuku.BackColor = System.Drawing.Color.MidnightBlue;
             this.databuku.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.databuku.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.databuku.Location = new System.Drawing.Point(64, 108);
+            this.databuku.Location = new System.Drawing.Point(64, 92);
             this.databuku.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.databuku.Name = "databuku";
             this.databuku.Size = new System.Drawing.Size(133, 53);
@@ -100,12 +101,27 @@
             this.databuku.UseVisualStyleBackColor = false;
             this.databuku.Click += new System.EventHandler(this.databuku_Click);
             // 
+            // homebtn
+            // 
+            this.homebtn.BackColor = System.Drawing.Color.MidnightBlue;
+            this.homebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.homebtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.homebtn.Location = new System.Drawing.Point(64, 254);
+            this.homebtn.Margin = new System.Windows.Forms.Padding(2);
+            this.homebtn.Name = "homebtn";
+            this.homebtn.Size = new System.Drawing.Size(133, 53);
+            this.homebtn.TabIndex = 25;
+            this.homebtn.Text = "Home";
+            this.homebtn.UseVisualStyleBackColor = false;
+            this.homebtn.Click += new System.EventHandler(this.homebtn_Click);
+            // 
             // pilihanstaff
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(275, 295);
+            this.ClientSize = new System.Drawing.Size(271, 327);
+            this.Controls.Add(this.homebtn);
             this.Controls.Add(this.databuku);
             this.Controls.Add(this.datapinjam);
             this.Controls.Add(this.panel1);
@@ -126,5 +142,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button datapinjam;
         private System.Windows.Forms.Button databuku;
+        private System.Windows.Forms.Button homebtn;
     }
 }

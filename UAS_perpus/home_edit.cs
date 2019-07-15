@@ -12,17 +12,19 @@ using MySql.Data.MySqlClient;
 
 namespace UAS_perpus
 {
-    public partial class tambahbuku : Form
+    public partial class home_edit : Form
     {
+        private int book_id;
 
         private string server;
         private string database;
-        private string user;
+        private string username;
         private string pass_db;
-        public static bool isLogin = false;
         private MySqlDataAdapter MySqlDataAdapter;
         private MySqlCommand command;
         MySqlConnection connection;
+        private string user;
+        private string pass;
 
         private void check_connection()
         {
@@ -35,6 +37,48 @@ namespace UAS_perpus
             connectionString = "datasource=" + server + ";" + "username=" + user + ";" + "password=" + pass_db + "; database=" + database + ";";
 
             connection = new MySqlConnection(connectionString);
+        }
+
+        public home_edit(int id)
+        {
+            this.book_id = id;
+
+            InitializeComponent();
+            fillData();
+            fill_author_combobox();
+        }
+
+        private void fillData()
+        {
+            string path = Application.StartupPath.Substring(0, (Application.StartupPath.Length - 10));
+
+            int id;
+
+            check_connection();
+
+            connection.Open();
+
+            MySqlCommand command = new MySqlCommand("Select * from buku where id = '" + this.book_id + "';", connection);
+
+            MySqlDataReader cmd = command.ExecuteReader();
+
+            cmd.Read();
+            System.Diagnostics.Debug.WriteLine(cmd.GetString("cover"));
+            System.Diagnostics.Debug.WriteLine(cmd.GetString("judul"));
+            System.Diagnostics.Debug.WriteLine(cmd.GetInt16("id_author"));
+            System.Diagnostics.Debug.WriteLine(cmd.GetString("sinopsis"));
+
+            preview_cover.Image = Image.FromFile(path + "\\Cover\\" + cmd.GetString("cover"));
+
+            title.Text = cmd.GetString("judul");
+
+            deskripsi.Text = cmd.GetString("sinopsis");
+
+            price.Text = cmd.GetString("harga");
+
+            id = cmd.GetInt16("id_author");
+
+            cmd.Close();
         }
 
         protected void fill_author_combobox()
@@ -61,12 +105,6 @@ namespace UAS_perpus
             //    System.Diagnostics.Debug.WriteLine(author_name);
             //    authorList.Items.Add(author_name);
             //}
-        }
-
-        public tambahbuku()
-        {
-            InitializeComponent();
-            fill_author_combobox();
         }
 
         private void browse_Click(object sender, EventArgs e)
@@ -109,9 +147,9 @@ namespace UAS_perpus
             {
                 string filename = System.IO.Path.GetFileName(openFileDialog1.FileName);
 
-                string judul_buku = judul.Text;
+                string judul_buku = title.Text;
                 string deskripsi_buku = deskripsi.Text;
-                string harga_buku = harga.Text;
+                string harga_buku = price.Text;
 
                 if (filename == null)
                 {
@@ -128,7 +166,7 @@ namespace UAS_perpus
                     System.Diagnostics.Debug.WriteLine(author_id);
                     cmd.Close();
 
-                    string query = "insert into buku(id_author, judul, sinopsis, harga, cover) values('" + author_id + "', '" + judul_buku + "', '" + deskripsi_buku + "', '" + harga_buku + "', '" + filename + "')";
+                    string query = "update buku set id_author='" + author_id + "', judul='" + judul_buku + "', sinopsis='" + deskripsi_buku + "', harga='" + harga_buku + "', cover='" + filename + "'";
 
                     MySqlCommand command = new MySqlCommand(query, connection);
 
@@ -157,14 +195,6 @@ namespace UAS_perpus
             control = new main();
 
             control.logout();
-        }
-
-        private void homebtn_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-
-            home home_form = new home();
-            home_form.Show();
         }
     }
 }

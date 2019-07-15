@@ -45,6 +45,7 @@
             this.save = new System.Windows.Forms.Button();
             this.authorList = new System.Windows.Forms.ComboBox();
             this.harga = new System.Windows.Forms.TextBox();
+            this.homebtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.preview_cover)).BeginInit();
@@ -53,6 +54,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkOrange;
+            this.panel1.Controls.Add(this.homebtn);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.logoutbtn);
             this.panel1.Controls.Add(this.pictureBox2);
@@ -84,7 +86,7 @@
             this.logoutbtn.Name = "logoutbtn";
             this.logoutbtn.Size = new System.Drawing.Size(55, 33);
             this.logoutbtn.TabIndex = 21;
-            this.logoutbtn.Text = "Leave";
+            this.logoutbtn.Text = "Log Out";
             this.logoutbtn.UseVisualStyleBackColor = false;
             this.logoutbtn.Click += new System.EventHandler(this.logoutbtn_Click);
             // 
@@ -215,6 +217,20 @@
             this.harga.Size = new System.Drawing.Size(404, 25);
             this.harga.TabIndex = 30;
             // 
+            // homebtn
+            // 
+            this.homebtn.BackColor = System.Drawing.Color.MidnightBlue;
+            this.homebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.homebtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.homebtn.Location = new System.Drawing.Point(483, 43);
+            this.homebtn.Margin = new System.Windows.Forms.Padding(2);
+            this.homebtn.Name = "homebtn";
+            this.homebtn.Size = new System.Drawing.Size(55, 33);
+            this.homebtn.TabIndex = 24;
+            this.homebtn.Text = "Home";
+            this.homebtn.UseVisualStyleBackColor = false;
+            this.homebtn.Click += new System.EventHandler(this.homebtn_Click);
+            // 
             // tambahbuku
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -263,5 +279,6 @@
         private System.Windows.Forms.Button save;
         private System.Windows.Forms.ComboBox authorList;
         private System.Windows.Forms.TextBox harga;
+        private System.Windows.Forms.Button homebtn;
     }
 }

@@ -34,9 +34,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.search = new System.Windows.Forms.TextBox();
             this.logoutbtn = new System.Windows.Forms.Button();
+            this.homebtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -68,10 +67,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkOrange;
+            this.panel1.Controls.Add(this.homebtn);
             this.panel1.Controls.Add(this.logoutbtn);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.search);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Location = new System.Drawing.Point(-3, -25);
             this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -101,27 +99,6 @@
             this.label1.TabIndex = 31;
             this.label1.Text = "DATA TRANSAKSI";
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Montserrat", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(318, 49);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(55, 16);
-            this.label7.TabIndex = 22;
-            this.label7.Text = "Search";
-            // 
-            // search
-            // 
-            this.search.Location = new System.Drawing.Point(376, 47);
-            this.search.Margin = new System.Windows.Forms.Padding(2);
-            this.search.Multiline = true;
-            this.search.Name = "search";
-            this.search.Size = new System.Drawing.Size(157, 21);
-            this.search.TabIndex = 17;
-            // 
             // logoutbtn
             // 
             this.logoutbtn.BackColor = System.Drawing.Color.MidnightBlue;
@@ -132,9 +109,23 @@
             this.logoutbtn.Name = "logoutbtn";
             this.logoutbtn.Size = new System.Drawing.Size(55, 33);
             this.logoutbtn.TabIndex = 24;
-            this.logoutbtn.Text = "Leave";
+            this.logoutbtn.Text = "Log Out";
             this.logoutbtn.UseVisualStyleBackColor = false;
             this.logoutbtn.Click += new System.EventHandler(this.logoutbtn_Click);
+            // 
+            // homebtn
+            // 
+            this.homebtn.BackColor = System.Drawing.Color.MidnightBlue;
+            this.homebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.homebtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.homebtn.Location = new System.Drawing.Point(491, 40);
+            this.homebtn.Margin = new System.Windows.Forms.Padding(2);
+            this.homebtn.Name = "homebtn";
+            this.homebtn.Size = new System.Drawing.Size(55, 33);
+            this.homebtn.TabIndex = 25;
+            this.homebtn.Text = "Home";
+            this.homebtn.UseVisualStyleBackColor = false;
+            this.homebtn.Click += new System.EventHandler(this.homebtn_Click);
             // 
             // transaksi
             // 
@@ -164,8 +155,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox search;
         private System.Windows.Forms.Button logoutbtn;
+        private System.Windows.Forms.Button homebtn;
     }
 }

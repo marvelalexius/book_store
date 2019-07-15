@@ -40,6 +40,7 @@
             this.deskripsi = new System.Windows.Forms.Label();
             this.buybtn = new System.Windows.Forms.Button();
             this.price = new System.Windows.Forms.Label();
+            this.editbtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -171,12 +172,27 @@
             this.price.TabIndex = 32;
             this.price.Text = "Rp 100.000";
             // 
+            // editbtn
+            // 
+            this.editbtn.BackColor = System.Drawing.Color.MidnightBlue;
+            this.editbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.editbtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.editbtn.Location = new System.Drawing.Point(441, 357);
+            this.editbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.editbtn.Name = "editbtn";
+            this.editbtn.Size = new System.Drawing.Size(143, 27);
+            this.editbtn.TabIndex = 34;
+            this.editbtn.Text = "EDIT";
+            this.editbtn.UseVisualStyleBackColor = false;
+            this.editbtn.Click += new System.EventHandler(this.editbtn_Click);
+            // 
             // home_detail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(629, 412);
+            this.Controls.Add(this.editbtn);
             this.Controls.Add(this.price);
             this.Controls.Add(this.buybtn);
             this.Controls.Add(this.deskripsi);
@@ -209,5 +225,6 @@
         private System.Windows.Forms.Label deskripsi;
         private System.Windows.Forms.Button buybtn;
         private System.Windows.Forms.Label price;
+        private System.Windows.Forms.Button editbtn;
     }
 }

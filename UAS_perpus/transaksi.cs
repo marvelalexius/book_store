@@ -68,5 +68,13 @@ namespace UAS_perpus
 
             control.logout();
         }
+
+        private void homebtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            home home_form = new home();
+            home_form.Show();
+        }
     }
 }

@@ -32,5 +32,13 @@ namespace UAS_perpus
             list_transaksi = new transaksi();
             list_transaksi.Show();
         }
+
+        private void homebtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            home home_form = new home();
+            home_form.Show();
+        }
     }
 }

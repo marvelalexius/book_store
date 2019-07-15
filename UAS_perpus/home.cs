@@ -43,6 +43,15 @@ namespace UAS_perpus
             InitializeComponent();
 
             fillImage();
+
+            if (main.role == "staff")
+            {
+                loginbtn.Text = "Log Out";
+            }
+            else
+            {
+                loginbtn.Text = "Login";
+            }
         }
 
         public void fillImage()
@@ -94,10 +103,21 @@ namespace UAS_perpus
 
         private void loginbtn_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            login staff_login = new login();
-            staff_login.Show();
-            loginbtn.Text = "logout";
+            if (loginbtn.Text == "Login")
+            {
+                this.Hide();
+                login staff_login = new login();
+                staff_login.Show();
+                loginbtn.Text = "Log Out";
+            } else
+            {
+                this.Hide();
+
+                main control;
+                control = new main();
+
+                control.logout();
+            }
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

@@ -23,7 +23,6 @@ D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UA
 D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.pembelian.resources
 D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.pilihanstaff.resources
 D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.Properties.Resources.resources
-D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.staff.resources
 D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.tambahbuku.resources
 D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.transaksi.resources
 D:\Primakara\Semester 6\Pemrograman Visual\UAS_toko buku\UAS_perpus\obj\Debug\UAS_perpus.csproj.GenerateResource.cache
